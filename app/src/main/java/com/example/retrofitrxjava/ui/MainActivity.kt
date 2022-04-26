@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
             .observeOn(AndroidSchedulers.mainThread())
             .subscribeOn(Schedulers.io())
             .subscribe(this::handleResponse, this::handleError))
-        // comment
+        // comment branch1
     }
 
     private fun handleResponse(obj: JsonObject){
